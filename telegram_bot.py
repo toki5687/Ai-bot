@@ -4,10 +4,10 @@ from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, Messa
 import openai
 
 # Set your OpenAI API key here
-openai.api_key = 'YOUR_OPENAI_API_KEY'
+openai.api_key = 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
 
 # Telegram bot token from BotFather
-TELEGRAM_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
+TELEGRAM_TOKEN = 7672233224:AAF7rbKaIcJWH-hsiCOJK619icaZbCyleZo
 
 # Enable logging
 logging.basicConfig(level=logging.INFO)
