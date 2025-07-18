@@ -30,9 +30,4 @@ app.add_handler(CommandHandler("start", start))
 app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, chat))
 
 app.run_polling()
-git init
-git add .
-git commit -m "initial commit"
-git branch -M main
-git remote add origin https://github.com/toki5687/Ai-bot
-git push -u origin main
+
